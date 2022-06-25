@@ -57,11 +57,28 @@ Now we can see our project structure folder it should be like this:
 
 ## Migrations
 
--- explicar migrations
+Migrations is basically a way to version your database. This looks amazing, is it like GIT?
+Well, not so much. Migrations operate with three focuses: CREATE, CHANGE, and REMOVE.
+
+That way we can make changes, create or even remove things from your database.
+But when we say remove, we are not referring to the DELETE operation, to remove data, but the DROP operation, to delete a table.
+
+### Running migrations
+
+Running the command in the console
+
+```bash
+npm run knex:migrate
+```
+We have this result:
+
+![](../../static/assets/tables_migrate.PNG)
+
+Four tables were created.
+The tables referring to the `items` and `lists` project and two more tables to control `knex_migrations` and `knex_migrations_lock`
 
 -- rodar migrations com knex [colinha](http://perkframework.com/v1/guides/database-migrations-knex.html)
 
-### Running migrations
 
 ## Repositories
 

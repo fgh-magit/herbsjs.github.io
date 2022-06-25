@@ -62,7 +62,7 @@ for now choose ```No, let me handle this```
 
 See steps that will reproduced:
 
-![](../../static/assets/herbs-new2.gif)
+![](../../static/assets/herbs-new2.gif) 
 
 
 To finish this step, run ```cd todo-api``` to access project folder
